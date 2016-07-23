@@ -12,6 +12,7 @@ def _build_app(config_to_use,
     app.register_blueprint(siteroot_module)
     return app
 
+
 def main():
     config = 'config.Config'
     app = _build_app(config)
